@@ -1,0 +1,22 @@
+
+export const contactTranslations = {
+  'contact.title': 'Contact Us',
+  'contact.subtitle': 'We\'re here to help with any questions about your licenses, plans, or account.',
+  'contact.form.name': 'Full Name',
+  'contact.form.email': 'Email Address',
+  'contact.form.message': 'Message',
+  'contact.form.submit': 'Send Message',
+  'contact.form.sending': 'Sending...',
+  'contact.support.title': 'Direct Support',
+  'contact.support.description': 'Prefer to email us directly? Send us a message at:',
+  'contact.response.title': 'Response Time',
+  'contact.response.description': 'We typically respond within 24 hours during business days.',
+  'contact.form.sendMessage': 'Send us a message',
+  'contact.form.fillOut': 'Fill out the form below and we\'ll get back to you soon.',
+  'contact.urgent.title': 'Need immediate help?',
+  'contact.urgent.description': 'For urgent license compliance issues, please mention "URGENT" in your message subject. We prioritize compliance-related inquiries to help keep your business running smoothly.',
+  'contact.success.title': 'Message sent successfully!',
+  'contact.success.description': 'We\'ll get back to you within 24 hours.',
+  'contact.error.title': 'Failed to send message',
+  'contact.error.description': 'Please try again or email us directly.',
+};

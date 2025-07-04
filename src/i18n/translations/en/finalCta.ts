@@ -1,0 +1,21 @@
+
+export const finalCtaTranslations = {
+  'finalCta.badge': 'Ready to automate your license management?',
+  'finalCta.title': 'Protect your business',
+  'finalCta.titleGradient': 'starting today',
+  'finalCta.subtitle': 'Don\'t risk costly fines or work stoppages. Join hundreds of contractors who trust LicenseAlert to keep their business compliant.',
+  'finalCta.freeTrial': '30-day free trial',
+  'finalCta.noCreditCard': 'No credit card required',
+  'finalCta.cancelAnytime': 'Cancel anytime',
+  'finalCta.startTrial': 'Join Waitlist',
+  'finalCta.scheduleDemo': 'Schedule demo',
+  'finalCta.secure': '100% Secure',
+  'finalCta.secureDesc': 'Your data is encrypted and protected',
+  'finalCta.quickSetup': '2-minute setup',
+  'finalCta.quickSetupDesc': 'Trusted by contractors across North America',
+  'finalCta.instantAlerts': 'Instant alerts',
+  'finalCta.instantAlertsDesc': 'Never miss another deadline',
+  'finalCta.trustedBy': 'Trusted by contractors across North America',
+  'finalCta.otherContractors': '+495 other contractors',
+  'finalCta.rating': '4.9/5 rating',
+};
