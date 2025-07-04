@@ -84,6 +84,12 @@ export const useContactFormSubmission = (form: UseFormReturn<ContactFormData>) =
           t('contact.success.description'),
       });
       
+      // Track successful contact form submission - Twitter
+      if (typeof window !== 'undefined' && (window as any).twq) {
+        (window as any).twq('event', 'tw-q3l9m-q3l9m', {
+        });
+      }
+      
       form.reset();
     } catch (error) {
       console.error('Contact form submission error:', error);

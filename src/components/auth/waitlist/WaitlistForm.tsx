@@ -81,6 +81,12 @@ const WaitlistForm = ({ onSuccess }: WaitlistFormProps) => {
         variant: "default",
       });
 
+      // Track successful waitlist signup - Twitter
+      if (typeof window !== 'undefined' && (window as any).twq) {
+        (window as any).twq('event', 'tw-q3l9m-q3l9m', {
+        });
+      }
+
       onSuccess();
     } catch (error) {
       console.error('Error joining waitlist:', error);

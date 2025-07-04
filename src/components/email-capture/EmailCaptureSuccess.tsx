@@ -4,12 +4,18 @@ import { CheckCircle, Sparkles } from 'lucide-react';
 
 const EmailCaptureSuccess = () => {
   useEffect(() => {
-    // Track successful email signup
+    // Track successful email signup - Google Analytics
     if (typeof window !== 'undefined' && window.gtag) {
       window.gtag('event', 'conversion', {
         'send_to': 'G-9X10D3X19J/email_signup',
         'value': 1.0,
         'currency': 'USD'
+      });
+    }
+    
+    // Track successful email signup - Twitter
+    if (typeof window !== 'undefined' && (window as any).twq) {
+      (window as any).twq('event', 'tw-q3l9m-q3l9m', {
       });
     }
   }, []);

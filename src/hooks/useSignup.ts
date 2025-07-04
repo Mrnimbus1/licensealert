@@ -82,6 +82,12 @@ export const useSignup = () => {
         });
       }
 
+      // Track successful signup - Twitter
+      if (typeof window !== 'undefined' && (window as any).twq) {
+        (window as any).twq('event', 'tw-q3l9m-q3l9m', {
+        });
+      }
+      
       // Redirect to early access success page
       navigate('/auth/early-access-success');
     } catch (error) {
